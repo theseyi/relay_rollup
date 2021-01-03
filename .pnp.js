@@ -415,7 +415,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "babel-plugin-macros",
-        "npm:2.8.0"
+        "npm:3.0.1"
       ],
       [
         "babel-plugin-relay",
@@ -531,7 +531,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "cosmiconfig",
-        "npm:6.0.0"
+        "npm:7.0.0"
       ],
       [
         "cross-fetch",
@@ -1394,6 +1394,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-relay", "npm:7.0.17"],
             ["@types/relay-runtime", "npm:10.1.6"],
             ["@types/rimraf", "npm:3.0.0"],
+            ["babel-plugin-macros", "npm:3.0.1"],
             ["babel-plugin-relay", "virtual:f6e8ee9a4d05abaa20aa57d214bb4faa636c04b8c543368e0d2b38e3ee6b69579f9d68fbd189d32f48fbda7e7fdb7572e82c061bd8f67f8a251d11f5898b7165#npm:10.1.2"],
             ["graphql", "npm:15.4.0"],
             ["react", "npm:17.0.1"],
@@ -3065,6 +3066,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:3.0.1", {
+          "packageLocation": "./.yarn/cache/babel-plugin-macros-npm-3.0.1-b6bee694f8-f1a5231363.zip/node_modules/babel-plugin-macros/",
+          "packageDependencies": [
+            ["babel-plugin-macros", "npm:3.0.1"],
+            ["@babel/runtime", "npm:7.12.5"],
+            ["cosmiconfig", "npm:7.0.0"],
+            ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["babel-plugin-relay", [
@@ -3429,6 +3440,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cosmiconfig-npm-6.0.0-cb7d64a2b9-bbd6bbaefe.zip/node_modules/cosmiconfig/",
           "packageDependencies": [
             ["cosmiconfig", "npm:6.0.0"],
+            ["@types/parse-json", "npm:4.0.0"],
+            ["import-fresh", "npm:3.3.0"],
+            ["parse-json", "npm:5.1.0"],
+            ["path-type", "npm:4.0.0"],
+            ["yaml", "npm:1.10.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:7.0.0", {
+          "packageLocation": "./.yarn/cache/cosmiconfig-npm-7.0.0-b9d0d7d156-151fcb9177.zip/node_modules/cosmiconfig/",
+          "packageDependencies": [
+            ["cosmiconfig", "npm:7.0.0"],
             ["@types/parse-json", "npm:4.0.0"],
             ["import-fresh", "npm:3.3.0"],
             ["parse-json", "npm:5.1.0"],
@@ -5143,6 +5166,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-relay", "npm:7.0.17"],
             ["@types/relay-runtime", "npm:10.1.6"],
             ["@types/rimraf", "npm:3.0.0"],
+            ["babel-plugin-macros", "npm:3.0.1"],
             ["babel-plugin-relay", "virtual:f6e8ee9a4d05abaa20aa57d214bb4faa636c04b8c543368e0d2b38e3ee6b69579f9d68fbd189d32f48fbda7e7fdb7572e82c061bd8f67f8a251d11f5898b7165#npm:10.1.2"],
             ["graphql", "npm:15.4.0"],
             ["react", "npm:17.0.1"],

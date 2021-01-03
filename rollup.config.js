@@ -25,15 +25,7 @@ export default {
     typescript({ noEmitOnError: true, tsconfig: "./tsconfig.json" }),
     babel({
       babelHelpers: "bundled",
-      plugins: [
-        [
-          "relay",
-          {
-            eagerESModules: true,
-            artifactDirectory: "./src/__generated__",
-          },
-        ],
-      ],
+      plugins: ["macros"],
       presets: [
         ["@babel/preset-react"],
         [
