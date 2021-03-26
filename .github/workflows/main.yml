@@ -51,7 +51,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - uses: tommykw/pull-request-reviewee-reminder-action@v1
+      - uses: tommykw/pull-request-reviewee-reminder-action@139596818beccd3129590e982b7003c4c4d04590
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reminder_message: 'This PR has been open for 24+ hours, teamwork makes the dream work!'
