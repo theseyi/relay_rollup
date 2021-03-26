@@ -51,8 +51,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - uses: blombard/review-reminder@49f4eae0cfad31c197bf28c91eea7d167f77ca81
+      - uses: tommykw/pull-request-reviewee-reminder-action@v1
         with:
-          token: '${{ secrets.GITHUB_TOKEN }}'
-          reminder-comment: 'This PR has been open for 24+ hours, teamwork makes the dream work!'
-          days-before-reminder: '1'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reminder_message: 'This PR has been open for 24+ hours, teamwork makes the dream work!'
+          pull_request_lifetime_hours: 24
